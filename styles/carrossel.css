@@ -1,4 +1,4 @@
-.carrocel__titulo {
+.carrossel__titulo {
   color: var(--titulo-2);
   background-color: var(--cor-de-fundo-2);
   text-align: center;
@@ -79,7 +79,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .carrocel__titulo {
+  .carrossel__titulo {
     font-size: 26px;
   }
 

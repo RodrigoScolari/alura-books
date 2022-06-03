@@ -94,11 +94,48 @@
   .swiper-button-prev,
   .swiper-button-next {
     display: block;
-    top: 35%;
+    top: 60%;
   }
 
   .card {
-    width: 80%;
+    width: 40%;
     margin: 2em auto;
+  }
+
+  .botoes__ancora:active {
+    background-color: var(--titulo-3);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+  .carrossel__container {
+    display: flex;
+    margin: 0 15vw 3em 15vw;
+    align-items: center;
+  }
+
+  .swiper-pagination {
+    margin: 1em 0;
+  }
+
+  .swiper {
+    width: 50%;
+  }
+
+  .descricao__titulo {
+    font-size: 32px;
+  }
+
+  .descricao__texto {
+    font-size: 16px;
+  }
+
+  .descricao {
+    margin-right: 1em;
+  }
+
+  .card {
+    width: 60%;
+    margin: 5em 3em 3em 3em;
   }
 }

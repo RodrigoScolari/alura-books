@@ -29,6 +29,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .topicos {
+    padding: 3em 10vw;
+  }
+
   .topicos__titulo {
     font-size: 24px;
   }
@@ -44,5 +48,16 @@
 
   .topicos__item {
     margin: 2.5em 1em;
+  }
+
+  .topicos__link:hover {
+    color: var(--titulo-2);
+    background-color: var(--cor-de-fundo-2);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+  .topicos {
+    padding: 3em 20vw;
   }
 }

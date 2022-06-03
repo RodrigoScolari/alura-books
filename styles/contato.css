@@ -37,6 +37,11 @@
   padding-left: 4em;
 }
 
+.contato__email:focus {
+  box-shadow: 1px 1px 1px 0.5px var(--titulo-3);
+  outline: 0;
+}
+
 @media screen and (min-width: 1024px) {
   .contato {
     display: flex;
@@ -55,5 +60,11 @@
 
   .contato__email {
     width: 30%;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .contato {
+    padding: 3em 20vw;
   }
 }

@@ -30,10 +30,14 @@
   font-weight: 400;
   text-align: center;
   color: var(--titulo-1);
-  background: url("/img/Lupa.svg") no-repeat;
+  background: url('/img/Lupa.svg') no-repeat;
   background-position: 1em;
 }
 
+.banner__pesquisa:focus {
+  box-shadow: 1px 1px 1px 0.5px var(--cor-de-fundo-2);
+  outline: 0;
+}
 
 @media screen and (min-width: 1024px) {
   .banner__titulo {
@@ -50,4 +54,16 @@
   }
 }
 
+@media screen and (min-width: 1728px) {
+  .banner__pesquisa {
+    width: 35%;
+  }
 
+  .banner__pesquisa::placeholder {
+    background-position: 7em;
+  }
+
+  .banner {
+    padding: 5em 0;
+  }
+}
